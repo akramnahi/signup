@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background:
+  conic-gradient(from 135deg,rgba(72, 168, 128, 0.22) 90deg,#0000 0) 32px calc(32px/2),
+  conic-gradient(from 135deg,#050505 90deg,#0000 0),
+  conic-gradient(from 135deg at 50% 0,rgba(72, 168, 128, 0.22) 90deg,#0000 0) #050505;
+background-size: 64px 32px;
+}
+
